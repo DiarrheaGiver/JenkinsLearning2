@@ -1,5 +1,4 @@
 pipeline{
-pipeline{
     agent any
     parameters{
         string(name: 'FILE_NAME', defaultValue: 'app', description: 'Имя исполняемого файла')
